@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://nft-preview-card-component4206.netlify.app/)
+- Live Site URL: [Frontend Mentor - NFT preview card component](https://nft-preview-card-component4206.netlify.app/)
 
 ### Built with
 
