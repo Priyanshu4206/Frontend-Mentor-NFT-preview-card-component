@@ -1,0 +1,148 @@
+*
+{
+  margin: 4px;
+  padding: 0;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+  }
+
+  .attribution a {
+    color: white;
+  }
+  body
+  {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+  }
+  .container
+  {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 16px;
+    box-shadow: -1px 0px 29px 8px hsl(215, 38.7%, 12.2%);
+  }
+  .img
+  {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #equillibriumImg
+  {
+      position: relative;
+      opacity: 1;
+      max-width: 338px;
+      width: auto;
+      border-radius: 16px;
+      margin-top: 21px;
+      top: 0;
+      left: 0;
+  }
+  
+  #viewIcon
+  {
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    top: 18px;
+    left: 0px;
+    padding: 42%;
+    background-color: aqua;
+    border-radius: 20px;
+  }
+  
+  #equillibriumImg:hover
+  {   
+    opacity: 0.5;
+  }
+  #viewIcon:hover
+  {
+    cursor:grabbing;
+    opacity: 0.5;
+  }
+  
+  .details
+  {
+    
+    font-family: 'Outfit',sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(92, 114, 145);
+    margin: 15px 30px;
+ 
+  }
+  .details .heading
+  {
+    color: white;
+    font-size:12px;
+    font-weight: 300;
+    margin-left: 0px;
+  }
+  .heading:hover
+  {
+    cursor:grabbing;
+    color:aqua;
+  }
+  .details .para
+  {
+    margin-top: 18px;
+    margin-bottom: 15px;
+  }
+   .components
+   {
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px solid;
+     padding-bottom: 20px;
+   }
+  .details #points
+  {
+    align-items: center;
+    display: flex;
+    font-weight: 300;
+    color:aqua;
+    margin-left: -1px;
+  }
+  .details #daysLeft
+  {
+    align-items: center;
+    display: flex;  
+    font-weight: lighter;
+  }
+  .details .creator
+  {
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+  }
+  .avatar-img #avatarImg
+  { 
+    max-width: 45px;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 100px;
+  }
+
+  .creator #name
+  {
+      color: white;
+  }
+  #name:hover
+  {
+    cursor:grabbing;
+    color:aqua;
+  }
